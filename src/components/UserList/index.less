@@ -1,0 +1,65 @@
+// 定义变量
+@primary-color: #1890ff;
+@danger-color: #f44336;
+@danger-color-hover: #d32f2f;
+@border-color: #ddd;
+@box-shadow-color: rgba(0, 0, 0, 0.1);
+@border-radius: 5px;
+@spacing-sm: 10px;
+@spacing-md: 15px;
+@spacing-lg: 20px;
+
+// 定义混合
+.box-shadow() {
+  box-shadow: 0 2px 4px @box-shadow-color;
+}
+
+.rounded-corners() {
+  border-radius: @border-radius;
+}
+
+// 组件样式，使用嵌套结构
+.user-list {
+  margin: @spacing-lg;
+  padding: @spacing-lg;
+  .rounded-corners();
+  .box-shadow();
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  
+  th, td {
+    padding: @spacing-sm;
+    text-align: left;
+    border-bottom: 1px solid @border-color;
+  }
+  
+  tr {
+    &:hover {
+      background-color: #f5f5f5;
+      cursor: pointer;
+    }
+  }
+}
+
+.user-details {
+  margin-top: @spacing-lg;
+  padding: @spacing-md;
+  background-color: #f9f9f9;
+  .rounded-corners();
+}
+
+.delete-button {
+  background-color: @danger-color;
+  color: white;
+  border: none;
+  padding: 5px @spacing-sm;
+  .rounded-corners();
+  cursor: pointer;
+  
+  &:hover {
+    background-color: @danger-color-hover;
+  }
+}
