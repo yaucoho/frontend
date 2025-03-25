@@ -1,0 +1,94 @@
+.ai-page {
+  padding: 20px;
+}
+.ai-page h2 {
+  color: #2C3E50;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+.ai-page .intro-section {
+  margin-bottom: 30px;
+}
+.ai-page .intro-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.ai-page .key-concepts {
+  margin-bottom: 30px;
+}
+.ai-page .key-concepts h3 {
+  color: #34495E;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #EAEAEA;
+  padding-bottom: 8px;
+}
+.ai-page .key-concepts ul {
+  padding-left: 20px;
+}
+.ai-page .key-concepts ul li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+.ai-page .key-concepts ul strong {
+  color: #0066CC;
+}
+.ai-page .code-examples {
+  margin-bottom: 30px;
+}
+.ai-page .code-examples h3 {
+  color: #34495E;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #EAEAEA;
+  padding-bottom: 8px;
+}
+.ai-page .code-examples .code-block {
+  background-color: #F8F9FA;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.ai-page .code-examples .code-block h4 {
+  color: #0066CC;
+  margin-bottom: 15px;
+}
+.ai-page .code-examples .code-block pre {
+  background-color: #2C3E50;
+  color: #F8F9FA;
+  padding: 15px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.ai-page .interview-questions .question {
+  margin-bottom: 25px;
+}
+.ai-page .interview-questions .question h4 {
+  color: #2C3E50;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.ai-page .interview-questions .question .answer {
+  background-color: #F5F5F5;
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 4px solid #0066CC;
+}
+.ai-page .interview-questions .question .answer p {
+  margin-bottom: 10px;
+}
+.ai-page .interview-questions .question .answer ul {
+  padding-left: 20px;
+}
+.ai-page .interview-questions .question .answer ul li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+@media (max-width: 768px) {
+  .ai-page .code-examples .code-block pre {
+    font-size: 0.8rem;
+  }
+}

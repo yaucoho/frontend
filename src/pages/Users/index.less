@@ -1,0 +1,124 @@
+.users-page {
+  padding : 20px;
+
+  h2 {
+    margin-bottom : 20px;
+    color : #333333;
+  }
+
+  p {
+    margin-bottom : 20px;
+    line-height : 1.6;
+  }
+
+  .users-table-container {
+    overflow-x : auto;
+    margin-bottom : 20px;
+  }
+
+  .users-table {
+    width : 100%;
+    border-collapse : collapse;
+    margin-bottom : 20px;
+    box-shadow : 0 1px 3px rgba(0,0,0,.1);
+
+    th, td {
+      padding : 12px 15px;
+      text-align : left;
+      border-bottom : 1px solid #DDDDDD;
+    }
+
+    th {
+      background-color : #F5F5F5;
+      font-weight : bold;
+    }
+
+    tr:hover {
+      background-color : #F9F9F9;
+    }
+
+    .btn {
+      padding : 6px 12px;
+      margin-right : 5px;
+      border : none;
+      border-radius : 4px;
+      cursor : pointer;
+      font-size : .9rem;
+
+      &.edit {
+        background-color : #4CAF50;
+        color : white;
+
+        &:hover {
+          background-color : darken(#4CAF50, 10%);
+        }
+      }
+
+      &.delete {
+        background-color : #F44336;
+        color : white;
+
+        &:hover {
+          background-color : darken(#F44336, 10%);
+        }
+      }
+    }
+  }
+
+  .user-actions {
+    margin-bottom : 30px;
+
+    .btn {
+      padding : 8px 16px;
+      margin-right : 10px;
+      border : none;
+      border-radius : 4px;
+      cursor : pointer;
+      font-size : 1rem;
+
+      &.add {
+        background-color : #2196F3;
+        color : white;
+
+        &:hover {
+          background-color : darken(#2196F3, 10%);
+        }
+      }
+
+      &.refresh {
+        background-color : #FF9800;
+        color : white;
+
+        &:hover {
+          background-color : darken(#FF9800, 10%);
+        }
+      }
+    }
+  }
+
+  .api-info {
+    background-color : #F5F5F5;
+    padding : 15px;
+    border-radius : 4px;
+
+    h3 {
+      margin-bottom : 10px;
+      color : #333333;
+    }
+
+    ul {
+      padding-left : 20px;
+
+      li {
+        margin-bottom : 5px;
+
+        code {
+          background-color : #E0E0E0;
+          padding : 2px 5px;
+          border-radius : 3px;
+          font-family : monospace;
+        }
+      }
+    }
+  }
+}

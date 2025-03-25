@@ -1,0 +1,133 @@
+.backend-page {
+  padding : 20px;
+
+  h2 {
+    color : #2C3E50;
+    margin-bottom : 20px;
+    font-size : 2rem;
+  }
+
+  .intro-section {
+    margin-bottom : 30px;
+
+    p {
+      font-size : 1.1rem;
+      line-height : 1.6;
+    }
+  }
+
+  .key-concepts {
+    margin-bottom : 30px;
+
+    h3 {
+      color : #34495E;
+      margin-bottom : 15px;
+      font-size : 1.5rem;
+      border-bottom : 2px solid #EAEAEA;
+      padding-bottom : 8px;
+    }
+
+    ul {
+      padding-left : 20px;
+
+      li {
+        margin-bottom : 12px;
+        line-height : 1.6;
+      }
+
+      strong {
+        color : #0066CC;
+      }
+    }
+  }
+
+  .code-examples {
+    margin-bottom : 30px;
+
+    h3 {
+      color : #34495E;
+      margin-bottom : 15px;
+      font-size : 1.5rem;
+      border-bottom : 2px solid #EAEAEA;
+      padding-bottom : 8px;
+    }
+
+    .code-block {
+      background-color : #F8F9FA;
+      border-radius : 8px;
+      padding : 20px;
+      margin-bottom : 20px;
+
+      h4 {
+        color : #0066CC;
+        margin-bottom : 15px;
+      }
+
+      pre {
+        background-color : #2C3E50;
+        color : #F8F9FA;
+        padding : 15px;
+        border-radius : 6px;
+        overflow-x : auto;
+        font-family : 'Consolas', 'Monaco', monospace;
+        font-size : .9rem;
+        line-height : 1.5;
+      }
+    }
+  }
+
+  .interview-questions {
+    .question {
+      margin-bottom : 25px;
+
+      h4 {
+        color : #2C3E50;
+        margin-bottom : 15px;
+        font-weight : 600;
+      }
+
+      .answer {
+        background-color : #F5F5F5;
+        padding : 15px;
+        border-radius : 6px;
+        border-left : 4px solid #0066CC;
+
+        p {
+          margin-bottom : 10px;
+        }
+
+        ol, ul {
+          padding-left : 20px;
+          margin-bottom : 15px;
+
+          li {
+            margin-bottom : 8px;
+            line-height : 1.5;
+          }
+        }
+
+        code {
+          background-color : #E0E0E0;
+          padding : 2px 5px;
+          border-radius : 3px;
+          font-family : monospace;
+        }
+
+        strong {
+          font-weight : 600;
+          color : #333333;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .code-examples {
+      .code-block {
+        pre {
+          font-size : .8rem;
+        }
+      }
+    }
+  }
+} 

@@ -1,35 +1,19 @@
-// 主应用组件
-import { useState } from 'react';
-import Dashboard from './components/Dashboard';
-import Counter from './components/Counter';
-import UserList from './components/UserList';
-function App() {
-  const [count, setCount] = useState(0)
+import React from 'react';
+import { RouterProvider } from 'react-router-dom';
+import router from './router';
+import './App.less';
 
+/**
+ * 应用根组件
+ * 
+ * 负责渲染路由和顶层布局
+ */
+const App: React.FC = () => {
   return (
-    <>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-      <div className="App">
-        <header className="App-header">
-          <h1>Admin Dashboard</h1>
-        </header>
-        <main>
-          <Dashboard title="Sales Analytics" description="View your sales performance" />
-          <Counter />
-          <UserList />
-        </main>
-      </div>
-    </>
-    /* 
-      <></>是Fragment语法。 
-      因为React规定组件必须返回一个根节点，所以需要使用Fragment来包裹多个子节点
-      优点是：不会在DOM中生成多余的节点且不会破坏Flex、Grid布局
-    */
-  )
-}
+    <div className="app">
+      <RouterProvider router={router} />
+    </div>
+  );
+};
 
-export default App
+export default App;

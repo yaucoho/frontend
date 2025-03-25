@@ -1,0 +1,107 @@
+.backend-page {
+  padding: 20px;
+}
+.backend-page h2 {
+  color: #2C3E50;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+.backend-page .intro-section {
+  margin-bottom: 30px;
+}
+.backend-page .intro-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.backend-page .key-concepts {
+  margin-bottom: 30px;
+}
+.backend-page .key-concepts h3 {
+  color: #34495E;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #EAEAEA;
+  padding-bottom: 8px;
+}
+.backend-page .key-concepts ul {
+  padding-left: 20px;
+}
+.backend-page .key-concepts ul li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+.backend-page .key-concepts ul strong {
+  color: #0066CC;
+}
+.backend-page .code-examples {
+  margin-bottom: 30px;
+}
+.backend-page .code-examples h3 {
+  color: #34495E;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #EAEAEA;
+  padding-bottom: 8px;
+}
+.backend-page .code-examples .code-block {
+  background-color: #F8F9FA;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.backend-page .code-examples .code-block h4 {
+  color: #0066CC;
+  margin-bottom: 15px;
+}
+.backend-page .code-examples .code-block pre {
+  background-color: #2C3E50;
+  color: #F8F9FA;
+  padding: 15px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.backend-page .interview-questions .question {
+  margin-bottom: 25px;
+}
+.backend-page .interview-questions .question h4 {
+  color: #2C3E50;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.backend-page .interview-questions .question .answer {
+  background-color: #F5F5F5;
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 4px solid #0066CC;
+}
+.backend-page .interview-questions .question .answer p {
+  margin-bottom: 10px;
+}
+.backend-page .interview-questions .question .answer ol,
+.backend-page .interview-questions .question .answer ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+.backend-page .interview-questions .question .answer ol li,
+.backend-page .interview-questions .question .answer ul li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+.backend-page .interview-questions .question .answer code {
+  background-color: #E0E0E0;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-family: monospace;
+}
+.backend-page .interview-questions .question .answer strong {
+  font-weight: 600;
+  color: #333333;
+}
+@media (max-width: 768px) {
+  .backend-page .code-examples .code-block pre {
+    font-size: 0.8rem;
+  }
+}
